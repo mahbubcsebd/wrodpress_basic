@@ -15,7 +15,16 @@
 </head>
 <body <?php body_class() ?>>
     
-
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#" class="logo"><img src="<?php echo get_theme_mod('mhb_logo'); ?>" alt=""></a>
+                </div>
+                <div class="col-md-9"></div>
+            </div>
+        </div>
+    </header>
 
 
 
